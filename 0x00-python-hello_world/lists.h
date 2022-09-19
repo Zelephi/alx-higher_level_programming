@@ -3,7 +3,14 @@
 
 #include <stdlib.h>
 
-
+/**
+ * struct listint_s - hello world
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: python programming Hello World 
+ * for alx project
+ */
 typedef struct listint_s
 {
 	int n;
