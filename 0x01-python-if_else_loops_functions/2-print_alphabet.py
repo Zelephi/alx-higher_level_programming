@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    print('{:c}'.format(i), end='')
+alpha = 97
+for alpha in range(97, 123):
+    print("{}".format(chr(alpha)), end='')
