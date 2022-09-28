@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-
+# A function that converts a Roman numeral to an integer.
 
 def roman_to_int(roman_string):
-    """
-    A function that converts a Roman numeral to an integer.
-    """
+
     num_map = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
     i = 0
     total = 0
