@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 8-simple_delete.py
-# Gedeon Obae Gekonge
+# Deletes a key in a dictionary
 
 
 def simple_delete(a_dictionary, key=""):
